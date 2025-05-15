@@ -43,9 +43,3 @@ Este projeto visa promover a conscientização ambiental entre alunos de escolas
 Para mais informações ou parcerias, entre em contato conosco:
 
 * **E-mail**: [educacaoambiental@escola.com](mailto:educacaoambiental@escola.com)
-* **Telefone**: (44) 1234-5678
-* **Endereço**: Rua da Escola, 123, Maringá - PR
-
----
-
-Esse modelo de README pode ser adaptado conforme as especificidades do seu projeto. Se desejar, posso auxiliá-lo na personalização do conteúdo ou na criação de materiais complementares
