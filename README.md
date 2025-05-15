@@ -1,0 +1,48 @@
+# Projeto Agrinho - Combate ao Desmatamento
+
+O **Projeto Agrinho** visa conscientizar e educar crianças e jovens sobre a importância da preservação ambiental, com foco no combate ao desmatamento. Através de atividades pedagógicas, o projeto busca sensibilizar a comunidade escolar para os impactos negativos do desmatamento e promover ações sustentáveis.
+
+## Objetivo
+
+O objetivo do projeto é sensibilizar a comunidade escolar para a preservação ambiental, especialmente no combate ao desmatamento, incentivando práticas sustentáveis e ações de reflorestamento.
+
+## Estrutura do Projeto
+
+O site é composto por diversas seções que abordam temas relacionados ao desmatamento e ao Projeto Agrinho:
+
+- **Introdução**: Apresenta o problema do desmatamento e a importância de ações educativas.
+- **O que é o desmatamento?**: Explica o conceito de desmatamento e seus impactos ambientais.
+- **O que é o Projeto Agrinho?**: Descreve o projeto Agrinho e suas atividades, promovendo a educação ambiental nas escolas.
+- **Como combater?**: Apresenta ações práticas que podem ser adotadas para combater o desmatamento.
+- **Galeria de Imagens e Vídeos**: Exibe imagens e vídeos do projeto em ação.
+- **Depoimentos**: Compartilha experiências de participantes e professores sobre o impacto do projeto.
+- **Contato**: Formulário de contato para dúvidas e sugestões.
+
+## Funcionalidades
+
+- **Navegação**: Menu de navegação para facilitar o acesso às diferentes seções do site.
+- **Galeria**: Imagens e vídeos que mostram as atividades e resultados do projeto.
+- **Formulário de Contato**: Formulário simples para envio de mensagens diretamente para o e-mail do projeto.
+
+## Tecnologias Utilizadas
+
+- **HTML5**: Estruturação do conteúdo do site.
+- **CSS**: Estilos visuais e layout do site.
+- **JavaScript**: Funcionalidades interativas (se aplicável).
+
+## Como Contribuir
+
+1. Faça um fork deste repositório.
+2. Crie uma branch com a sua modificação: `git checkout -b minha-modificacao`.
+3. Faça o commit das suas alterações: `git commit -am 'Adiciona nova funcionalidade'`.
+4. Envie para a branch principal: `git push origin minha-modificacao`.
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+
+## Contato
+
+- **E-mail**: agrinho@educacao.pr.gov.br
+- **Mais informações sobre o Programa Agrinho**: [www.sistemafaep.org.br/agrinho](https://www.sistemafaep.org.br/agrinho/)
