@@ -1,47 +1,103 @@
-# Projeto Agrinho - Combate ao Desmatamento
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Combate ao Desmatamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Projeto Agrinho: Combate ao Desmatamento</h1>
+        <p>Conscientizando para preservar o futuro.</p>
+    </header>
 
-O **Projeto Agrinho** visa conscientizar e educar crianças e jovens sobre a importância da preservação ambiental, com foco no combate ao desmatamento. Através de atividades pedagógicas, o projeto busca sensibilizar a comunidade escolar para os impactos negativos do desmatamento e promover ações sustentáveis.
+    <nav>
+        <ul>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#desmatamento">O que é o desmatamento?</a></li>
+            <li><a href="#agrinho">O que é o Projeto Agrinho?</a></li>
+            <li><a href="#acoes">Como combater?</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-## Objetivo
+    <section id="introducao">
+        <h2>Introdução</h2>
+        <p>O desmatamento é uma das maiores ameaças ao meio ambiente. O Projeto Agrinho busca sensibilizar crianças e jovens para a importância da preservação ambiental, promovendo ações educativas que envolvem a comunidade escolar.</p>
+    </section>
 
-O objetivo do projeto é sensibilizar a comunidade escolar para a preservação ambiental, especialmente no combate ao desmatamento, incentivando práticas sustentáveis e ações de reflorestamento.
+    <section id="desmatamento">
+        <h2>O que é o desmatamento?</h2>
+        <p>O desmatamento é a remoção da vegetação nativa, sem reposição, para dar lugar a outras atividades. Isso causa perda de biodiversidade, alterações climáticas e degradação do solo.</p>
+    </section>
 
-## Estrutura do Projeto
+    <section id="agrinho">
+        <h2>O que é o Projeto Agrinho?</h2>
+        <p>O Agrinho é o maior programa de responsabilidade social do Sistema FAEP, promovido pelo SENAR-PR, com apoio do Governo do Estado do Paraná. Criado em 1996, o programa leva às escolas públicas atividades pedagógicas focadas em saúde, cidadania e meio ambiente. Anualmente, o programa envolve cerca de 800 mil crianças e mais de 50 mil professores em todos os municípios do Estado.</p>
+    </section>
 
-O site é composto por diversas seções que abordam temas relacionados ao desmatamento e ao Projeto Agrinho:
+    <section id="acoes">
+        <h2>Como combater?</h2>
+        <ul>
+            <li>Reflorestamento com espécies nativas.</li>
+            <li>Uso sustentável dos recursos naturais.</li>
+            <li>Educação ambiental nas escolas e comunidades.</li>
+            <li>Fiscalização e cumprimento das leis ambientais.</li>
+        </ul>
+    </section>
 
-- **Introdução**: Apresenta o problema do desmatamento e a importância de ações educativas.
-- **O que é o desmatamento?**: Explica o conceito de desmatamento e seus impactos ambientais.
-- **O que é o Projeto Agrinho?**: Descreve o projeto Agrinho e suas atividades, promovendo a educação ambiental nas escolas.
-- **Como combater?**: Apresenta ações práticas que podem ser adotadas para combater o desmatamento.
-- **Galeria de Imagens e Vídeos**: Exibe imagens e vídeos do projeto em ação.
-- **Depoimentos**: Compartilha experiências de participantes e professores sobre o impacto do projeto.
-- **Contato**: Formulário de contato para dúvidas e sugestões.
+    <section id="galeria">
+        <h2>Galeria de Imagens e Vídeos</h2>
+        <div class="gallery">
+            <img src="https://raw.githubusercontent.com/matpavaneli/agrinho/refs/heads/main/assets/image1.png" alt="Atividade do Agrinho">
+            <img src="https://raw.githubusercontent.com/matpavaneli/agrinho/refs/heads/main/assets/image2.png" alt="Reflorestamento com alunos">
+            <img src="https://raw.githubusercontent.com/matpavaneli/agrinho/refs/heads/main/assets/image3.png" alt="Oficina de educação ambiental">
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" 
+                    src="https://www.youtube-nocookie.com/embed/oyYcteAMVek?rel=0" 
+                    frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
 
-## Funcionalidades
+    <section id="depoimentos">
+        <h2>Depoimentos</h2>
+        <blockquote>
+            <p>"O Agrinho me ensinou a importância de cuidar da natureza. Hoje, sou voluntário em projetos de reflorestamento." — João, ex-aluno</p>
+        </blockquote>
+        <blockquote>
+            <p>"As atividades práticas do Agrinho despertaram nos alunos o interesse pela preservação ambiental." — Maria, professora</p>
+        </blockquote>
+    </section>
 
-- **Navegação**: Menu de navegação para facilitar o acesso às diferentes seções do site.
-- **Galeria**: Imagens e vídeos que mostram as atividades e resultados do projeto.
-- **Formulário de Contato**: Formulário simples para envio de mensagens diretamente para o e-mail do projeto.
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="mailto:agrinho@educacao.pr.gov.br" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
 
-## Tecnologias Utilizadas
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
 
-- **HTML5**: Estruturação do conteúdo do site.
-- **CSS**: Estilos visuais e layout do site.
-https://github.com/matPavaneli/agrinho
-## Como Contribuir
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
-1. Faça um fork deste repositório.
-2. Crie uma branch com a sua modificação: `git checkout -b minha-modificacao`.
-3. Faça o commit das suas alterações: `git commit -am 'Adiciona nova funcionalidade'`.
-4. Envie para a branch principal: `git push origin minha-modificacao`.
-5. Abra um Pull Request.
 
-## Licença
 
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-## Contato
 
-- **E-mail**: agrinho@educacao.pr.gov.br
-- **Mais informações sobre o Programa Agrinho**: [www.sistemafaep.org.br/agrinho](https://www.sistemafaep.org.br/agrinho/)
+
+    <footer>
+        <p>Contato: agrinho@educacao.pr.gov.br</p>
+        <p><a href="https://www.sistemafaep.org.br/agrinho/" target="_blank">Saiba mais sobre o Programa Agrinho</a></p>
+    </footer>
+</body>
+</html>
